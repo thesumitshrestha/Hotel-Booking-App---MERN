@@ -1,4 +1,5 @@
 import express from 'express';
+import cookieParser from 'cookie-parser';
 import dotenv from 'dotenv';
 import mongoose from 'mongoose';
 import authRoute from './routes/auth.js';
@@ -18,6 +19,7 @@ const connect = async () => {
   }
 };
 
+app.use(cookieParser());
 app.use(express.json());
 
 app.use('/api/auth', authRoute);
