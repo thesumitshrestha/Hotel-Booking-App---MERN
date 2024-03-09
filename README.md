@@ -30,7 +30,9 @@ This is a full-stack Hotel Booking Application built using the MERN (MongoDB, Ex
 2. **Navigate to the project directory and install dependencies:**
 
    ```bash
-   cd Hotel-Booking-App
+   cd Hotel-Booking-App/client
+   cd Hotel-Booking-App/api
+   cd Hotel-Booking-App/admin
    npm install
    ```
 
@@ -50,7 +52,16 @@ This is a full-stack Hotel Booking Application built using the MERN (MongoDB, Ex
    npm start
    ```
 
-6. **Access the application in your browser at `http://localhost:3000`.**
+## Admin Section
+
+6. **Start the admin development server:**
+
+   ```bash
+   cd admin
+   npm start
+   ```
+
+7. **Access the application in your browser at `http://localhost:3000`.**
 
 ## Contributing
 
